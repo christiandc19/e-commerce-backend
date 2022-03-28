@@ -49,7 +49,7 @@ router.post('/', (req, res) => {
 router.put('/:id', (req, res) => {
   Category.update(
     {
-    category__name: req.body.category__name
+    category_name: req.body.category_name
   },
   {
     where: {
