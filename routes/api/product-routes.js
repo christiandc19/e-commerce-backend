@@ -21,6 +21,10 @@ router.get('/', (req, res) => {
   }).then(function(products) {
     res.json(products) 
   })
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err);
+  });
 });
 
 router.get('/:id', (req, res) => {
@@ -40,6 +44,10 @@ router.get('/:id', (req, res) => {
 }).then(function(products) {
   res.json(products) 
 })
+.catch(err => {
+  console.log(err);
+  res.status(500).json(err);
+});
 });
 
 

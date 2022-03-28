@@ -16,6 +16,10 @@ router.get('/', (req, res) => {
   .then(function(products) {
     res.json(products)
   })
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err);
+  });  
 });
 
 // find one category by its `id` value
@@ -33,6 +37,10 @@ router.get('/:id', (req, res) => {
   .then(function(category) {
     res.json(category)
   })
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err);
+  });  
 });
 
 // create a new category
@@ -43,6 +51,10 @@ router.post('/', (req, res) => {
   .then(function(category) {
     res.json(category)
   })
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err);
+  });  
 });
 
 // update a category by its `id` value
@@ -59,6 +71,10 @@ router.put('/:id', (req, res) => {
   .then(function(category) {
     res.json(category)
   })
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err);
+  });  
 });
 
 // delete a category by its `id` value
@@ -72,6 +88,10 @@ router.delete('/:id', (req, res) => {
   .then(function(category) {
     res.json(category)
   })
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err);
+  });  
 });
 
 module.exports = router;
