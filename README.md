@@ -26,7 +26,7 @@
   ## DEPLOYMENT  
   ### https://christiandc19.github.io/e-commerce-backend/
   ### https://github.com/christiandc19/e-commerce-backend/
-  ### Walkthrough video link: https://bootcampspot.instructuremedia.com/lti/launch?custom_arc_launch_type=embed&custom_arc_media_id=8e28cff4-0afd-45fc-a3f1-b1ceda9ed005-2280 
+  ### Walkthrough video link: https://youtu.be/ap2fz8oALto
   ------------------
   ## QUESTIONS  
   ### If you have any questions, you may contact me at:
